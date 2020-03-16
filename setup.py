@@ -94,9 +94,10 @@ setup(
         'bson==0.5.8',
         'sqlparse==0.2.4',
         'pymongo>=3.2.0',
-        'django>=2.0,<3',
-        'dataclasses>=0.1',
-        'six>=1.13.0',
+        # 'django>=2.0,<3',
+        'django>=3',
+        # 'dataclasses>=0.1',
+        # 'six>=1.13.0',
     ],
     extras_require=dict(
         json=[
@@ -111,6 +112,9 @@ setup(
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
+        'Programming Language :: Python',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
     ]
 )
