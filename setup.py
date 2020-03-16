@@ -93,7 +93,7 @@ setup(
     install_requires=[
         'bson==0.5.8',
         # 'sqlparse>=0.3.0',
-        'sqlparse>=0.2.4',
+        'sqlparse==0.2.4',
         'pymongo>=3.2.0',
         # 'django>=2.0,<3',
         'django>=2.0',
