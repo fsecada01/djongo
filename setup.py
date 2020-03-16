@@ -97,8 +97,7 @@ setup(
         'pymongo>=3.2.0',
         # 'django>=2.0,<3',
         'django>=2.0',
-        'dataclasses>=0.1 ; python_version>"3.5"',
-        'dataclasses>=0.6 ; python_version<"3.6"',
+        'dataclasses>=0.6 ; python_version>"3.6"',
         'six>=1.13.0',
     ],
     extras_require=dict(
