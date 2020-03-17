@@ -1,5 +1,5 @@
 sqlparse==0.2.4
-pymongo>=3.2.0
+pymongo>=3.7.0
 dataclasses>=0.6
 six>=1.13.0
  # requirements.txt
