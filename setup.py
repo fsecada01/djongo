@@ -93,7 +93,7 @@ setup(
     install_requires=[
         'sqlparse==0.2.4',
         'pymongo>=3.7.0',
-        'dataclasses>=0.6 ; python_version>="3.6"',
+        "dataclasses>=0.6 ; python_version<'3.7'",
         'six>=1.13.0',
     ],
     extras_require=dict(
